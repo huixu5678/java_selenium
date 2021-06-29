@@ -1,0 +1,616 @@
+2021-06-04 16:48:10,860 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:22)retrycount=2
+2021-06-04 16:48:10,863 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:23)sourceCodeDir=src
+2021-06-04 16:48:10,864 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:24)sourceCodeEncoding=UTF-8
+2021-06-04 16:48:14,440 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Start
+2021-06-04 16:48:15,299 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://www.baidu.com
+2021-06-04 16:48:15,845 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [testBidu] on class [com.huixu.cases.assertTest] Retry 1 times
+2021-06-04 16:48:16,036 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Skipped
+2021-06-04 16:48:16,037 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Start
+2021-06-04 16:48:16,382 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://www.baidu.com
+2021-06-04 16:48:16,626 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [testBidu] on class [com.huixu.cases.assertTest] Retry 2 times
+2021-06-04 16:48:16,915 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Skipped
+2021-06-04 16:48:16,916 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Start
+2021-06-04 16:48:17,654 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://www.baidu.com
+2021-06-04 16:48:18,913 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-04 16:48:18,914 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-04 16:48:19,330 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Failure
+2021-06-04 16:48:19,549 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-04 16:48:22,678 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：1
+2021-06-04 16:48:25,869 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-04 16:48:26,786 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)匹配校验成功！
+2021-06-04 16:48:26,787 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Success
+2021-06-04 16:48:32,282 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-04 16:48:32,283 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-04 16:48:32,493 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：
+2021-06-04 16:48:35,611 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：
+2021-06-04 16:48:38,802 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-04 16:48:40,033 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)匹配校验成功！
+2021-06-04 16:48:40,034 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Success
+2021-06-04 16:48:45,336 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-04 16:48:45,336 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-04 16:48:45,556 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-04 16:48:48,677 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：2
+2021-06-04 16:48:51,876 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-04 16:48:52,806 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)匹配校验失败！
+待校验的字符串为:  Error
+Web Tours Error - Incorrect Password
+The username/password combination you've entered is invalid. Please double check your entry. If it still does not work, you might need to re-register with our site.
+Thank you for your patience.
+包含字符串为:hello,hello
+2021-06-04 16:48:53,012 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [loginTest] on class [com.huixu.cases.WebtoursTest] Retry 1 times
+2021-06-04 16:48:53,193 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-04 16:48:58,477 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-04 16:48:58,478 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-04 16:48:58,479 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [loginTest] on class [com.huixu.cases.WebtoursTest] Retry 2 times
+2021-06-04 16:48:58,706 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-04 16:49:03,818 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-04 16:49:03,819 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-04 16:49:04,028 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Failure
+2021-06-04 16:49:04,704 INFO main [com.huixu.listener.TestResultListener]info(line:41)PassedTests = loginTest
+2021-06-04 16:49:04,704 INFO main [com.huixu.listener.TestResultListener]info(line:41)PassedTests = loginTest
+2021-06-04 16:49:04,704 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-04 16:49:04,705 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-04 16:49:04,705 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = testBidu
+2021-06-04 16:49:04,705 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = testBidu
+2021-06-04 16:49:04,706 INFO main [com.huixu.listener.TestResultListener]info(line:41)failedTest = loginTest
+2021-06-04 16:49:04,706 INFO main [com.huixu.listener.TestResultListener]info(line:41)failedTest = testBidu
+2021-06-04 16:49:04,706 INFO main [com.huixu.listener.TestResultListener]info(line:41)Remove repeat Fail Test: loginTest
+2021-06-04 16:49:04,707 INFO main [com.huixu.listener.TestResultListener]info(line:41)Remove repeat Fail Test: testBidu
+2021-06-04 16:57:13,472 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:22)retrycount=2
+2021-06-04 16:57:13,475 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:23)sourceCodeDir=src
+2021-06-04 16:57:13,476 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:24)sourceCodeEncoding=UTF-8
+2021-06-04 16:57:17,026 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Start
+2021-06-04 16:57:17,822 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://www.baidu.com
+2021-06-04 16:57:18,384 ERROR TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]err(line:53)校验失败
+2021-06-04 16:57:18,386 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [testBidu] on class [com.huixu.cases.assertTest] Retry 1 times
+2021-06-04 16:57:18,567 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Skipped
+2021-06-04 16:57:18,568 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Start
+2021-06-04 16:57:18,910 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://www.baidu.com
+2021-06-04 16:57:19,161 ERROR TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]err(line:53)校验失败
+2021-06-04 16:57:19,162 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [testBidu] on class [com.huixu.cases.assertTest] Retry 2 times
+2021-06-04 16:57:19,451 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Skipped
+2021-06-04 16:57:19,453 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Start
+2021-06-04 16:57:19,823 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://www.baidu.com
+2021-06-04 16:57:20,061 ERROR TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]err(line:53)校验失败
+2021-06-04 16:57:21,480 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-04 16:57:21,480 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-04 16:57:21,683 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Failure
+2021-06-04 16:57:21,915 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-04 16:57:25,046 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：1
+2021-06-04 16:57:28,240 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-04 16:57:29,161 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)匹配校验成功！
+2021-06-04 16:57:29,161 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Success
+2021-06-04 16:57:34,158 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-04 16:57:34,158 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-04 16:57:34,370 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：
+2021-06-04 16:57:37,487 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：
+2021-06-04 16:57:40,682 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-04 16:57:41,840 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)匹配校验成功！
+2021-06-04 16:57:41,841 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Success
+2021-06-04 16:57:46,590 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-04 16:57:46,591 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-04 16:57:46,809 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-04 16:57:49,932 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：2
+2021-06-04 16:57:53,119 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-04 16:57:54,029 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)匹配校验失败！
+待校验的字符串为:  Error
+Web Tours Error - Incorrect Password
+The username/password combination you've entered is invalid. Please double check your entry. If it still does not work, you might need to re-register with our site.
+Thank you for your patience.
+包含字符串为:hello,hello
+2021-06-04 16:57:54,226 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)校验失败
+2021-06-04 16:57:54,226 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [loginTest] on class [com.huixu.cases.WebtoursTest] Retry 1 times
+2021-06-04 16:57:54,403 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-04 16:57:59,351 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-04 16:57:59,355 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-04 16:57:59,356 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [loginTest] on class [com.huixu.cases.WebtoursTest] Retry 2 times
+2021-06-04 16:57:59,582 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-04 16:58:03,915 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-04 16:58:03,916 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-04 16:58:04,260 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Failure
+2021-06-04 16:58:05,733 INFO main [com.huixu.listener.TestResultListener]info(line:41)PassedTests = loginTest
+2021-06-04 16:58:05,734 INFO main [com.huixu.listener.TestResultListener]info(line:41)PassedTests = loginTest
+2021-06-04 16:58:05,734 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-04 16:58:05,735 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = testBidu
+2021-06-04 16:58:05,735 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-04 16:58:05,735 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = testBidu
+2021-06-04 16:58:05,736 INFO main [com.huixu.listener.TestResultListener]info(line:41)failedTest = loginTest
+2021-06-04 16:58:05,736 INFO main [com.huixu.listener.TestResultListener]info(line:41)failedTest = testBidu
+2021-06-04 16:58:05,737 INFO main [com.huixu.listener.TestResultListener]info(line:41)Remove repeat Fail Test: loginTest
+2021-06-04 16:58:05,737 INFO main [com.huixu.listener.TestResultListener]info(line:41)Remove repeat Fail Test: testBidu
+2021-06-04 19:53:15,921 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://www.baidu.com
+2021-06-04 19:53:16,454 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)校验失败
+2021-06-04 19:54:34,825 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://www.baidu.com
+2021-06-04 20:04:20,360 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://www.baidu.com
+2021-06-04 21:49:01,128 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://www.baidu.com
+2021-06-04 21:50:19,791 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://www.baidu.com
+2021-06-04 21:56:51,208 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://www.baidu.com
+2021-06-04 21:56:51,760 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)校验失败
+2021-06-05 15:24:53,789 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:22)retrycount=2
+2021-06-05 15:24:53,793 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:23)sourceCodeDir=src
+2021-06-05 15:24:53,794 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:24)sourceCodeEncoding=UTF-8
+2021-06-05 15:25:01,168 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Start
+2021-06-05 15:25:02,303 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://www.baidu.com
+2021-06-05 15:25:02,888 ERROR TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]err(line:53)校验失败
+2021-06-05 15:25:02,889 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [testBidu] on class [com.huixu.cases.assertTest] Retry 1 times
+2021-06-05 15:25:03,087 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Skipped
+2021-06-05 15:25:03,088 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Start
+2021-06-05 15:25:03,420 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://www.baidu.com
+2021-06-05 15:25:03,751 ERROR TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]err(line:53)校验失败
+2021-06-05 15:25:03,752 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [testBidu] on class [com.huixu.cases.assertTest] Retry 2 times
+2021-06-05 15:25:04,020 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Skipped
+2021-06-05 15:25:04,021 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Start
+2021-06-05 15:25:04,368 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://www.baidu.com
+2021-06-05 15:25:04,638 ERROR TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]err(line:53)校验失败
+2021-06-05 15:25:10,528 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Failure
+2021-06-05 15:25:10,759 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-05 15:25:10,955 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-05 15:25:11,136 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-05 15:25:11,138 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-05 15:25:11,138 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = testBidu
+2021-06-05 15:25:11,139 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = testBidu
+2021-06-05 15:25:11,139 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-05 15:25:11,140 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-05 15:25:11,140 INFO main [com.huixu.listener.TestResultListener]info(line:41)failedTest = testBidu
+2021-06-05 15:25:11,140 INFO main [com.huixu.listener.TestResultListener]info(line:41)Remove repeat Fail Test: testBidu
+2021-06-05 15:46:16,002 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:22)retrycount=2
+2021-06-05 15:46:16,005 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:23)sourceCodeDir=src
+2021-06-05 15:46:16,006 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:24)sourceCodeEncoding=UTF-8
+2021-06-05 15:46:20,353 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Start
+2021-06-05 15:46:21,220 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://www.baidu.com
+2021-06-05 15:46:21,800 ERROR TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]err(line:53)校验失败
+2021-06-05 15:46:21,802 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [testBidu] on class [com.huixu.cases.assertTest] Retry 1 times
+2021-06-05 15:46:21,988 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Skipped
+2021-06-05 15:46:21,989 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Start
+2021-06-05 15:46:22,351 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://www.baidu.com
+2021-06-05 15:46:22,601 ERROR TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]err(line:53)校验失败
+2021-06-05 15:46:22,602 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [testBidu] on class [com.huixu.cases.assertTest] Retry 2 times
+2021-06-05 15:46:22,843 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Skipped
+2021-06-05 15:46:22,843 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Start
+2021-06-05 15:46:23,736 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://www.baidu.com
+2021-06-05 15:46:26,072 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 15:46:26,073 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 15:46:26,309 ERROR TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]err(line:53)校验失败
+2021-06-05 15:46:26,507 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Failure
+2021-06-05 15:46:26,766 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 15:46:29,895 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：1
+2021-06-05 15:46:33,100 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 15:46:34,067 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)匹配校验成功！
+2021-06-05 15:46:34,069 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Success
+2021-06-05 15:46:39,302 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 15:46:39,303 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 15:46:39,523 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：
+2021-06-05 15:46:42,652 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：
+2021-06-05 15:46:45,853 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 15:46:46,820 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)匹配校验成功！
+2021-06-05 15:46:46,821 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Success
+2021-06-05 15:46:53,416 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 15:46:53,417 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 15:46:53,648 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 15:46:56,780 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：2
+2021-06-05 15:46:59,979 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 15:47:00,914 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)匹配校验失败！
+待校验的字符串为:  Error
+Web Tours Error - Incorrect Password
+The username/password combination you've entered is invalid. Please double check your entry. If it still does not work, you might need to re-register with our site.
+Thank you for your patience.
+包含字符串为:hello,hello
+2021-06-05 15:47:01,120 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)校验失败
+2021-06-05 15:47:01,121 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [loginTest] on class [com.huixu.cases.WebtoursTest] Retry 1 times
+2021-06-05 15:47:01,302 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-05 15:47:06,044 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 15:47:06,044 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 15:47:06,045 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [loginTest] on class [com.huixu.cases.WebtoursTest] Retry 2 times
+2021-06-05 15:47:06,259 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-05 15:47:14,656 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 15:47:14,657 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 15:47:14,892 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Failure
+2021-06-05 15:47:15,606 INFO main [com.huixu.listener.TestResultListener]info(line:41)PassedTests = loginTest
+2021-06-05 15:47:15,607 INFO main [com.huixu.listener.TestResultListener]info(line:41)PassedTests = loginTest
+2021-06-05 15:47:15,607 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = testBidu
+2021-06-05 15:47:15,608 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = testBidu
+2021-06-05 15:47:15,608 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-05 15:47:15,608 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-05 15:47:15,609 INFO main [com.huixu.listener.TestResultListener]info(line:41)failedTest = testBidu
+2021-06-05 15:47:15,609 INFO main [com.huixu.listener.TestResultListener]info(line:41)failedTest = loginTest
+2021-06-05 15:47:15,610 INFO main [com.huixu.listener.TestResultListener]info(line:41)Remove repeat Fail Test: testBidu
+2021-06-05 15:47:15,610 INFO main [com.huixu.listener.TestResultListener]info(line:41)Remove repeat Fail Test: loginTest
+2021-06-05 16:05:13,211 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 16:05:16,259 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: password中输入文本：1
+2021-06-05 16:05:19,721 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:05:19,810 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)匹配校验失败！
+待校验的字符串为:
+包含字符串为:Welcome, zhsan1
+2021-06-05 16:05:19,919 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)校验失败
+2021-06-05 16:05:30,901 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: username中输入文本：
+2021-06-05 16:05:33,946 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: password中输入文本：
+2021-06-05 16:05:37,418 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:05:37,505 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)匹配校验失败！
+待校验的字符串为:
+包含字符串为:Web Tours Error - Incorrect Password
+2021-06-05 16:05:37,582 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)校验失败
+2021-06-05 16:05:48,606 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 16:05:51,649 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: password中输入文本：2
+2021-06-05 16:05:55,112 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:05:55,193 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)匹配校验失败！
+待校验的字符串为:
+包含字符串为:hello,hello
+2021-06-05 16:05:55,271 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)校验失败
+2021-06-05 16:11:58,460 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 16:11:58,630 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 16:12:01,681 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: password中输入文本：1
+2021-06-05 16:12:05,148 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:12:05,238 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)匹配校验失败！
+待校验的字符串为:
+包含字符串为:Welcome, zhsan1
+2021-06-05 16:12:05,348 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)校验失败
+2021-06-05 16:12:16,795 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 16:12:16,907 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: username中输入文本：
+2021-06-05 16:12:19,947 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: password中输入文本：
+2021-06-05 16:12:24,637 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:12:24,725 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)匹配校验失败！
+待校验的字符串为:
+包含字符串为:Web Tours Error - Incorrect Password
+2021-06-05 16:12:24,801 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)校验失败
+2021-06-05 16:12:39,212 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 16:12:39,347 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 16:12:42,388 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: password中输入文本：2
+2021-06-05 16:12:45,848 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:12:45,937 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)匹配校验失败！
+待校验的字符串为:
+包含字符串为:hello,hello
+2021-06-05 16:12:46,016 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)校验失败
+2021-06-05 16:15:30,321 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:22)retrycount=2
+2021-06-05 16:15:30,325 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:23)sourceCodeDir=src
+2021-06-05 16:15:30,325 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:24)sourceCodeEncoding=UTF-8
+2021-06-05 16:15:33,940 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Start
+2021-06-05 16:15:34,778 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://www.baidu.com
+2021-06-05 16:15:34,817 INFO TestNG-test=Selenium_java-2 [com.huixu.listener.TestResultListener]info(line:41)testBidu Success
+2021-06-05 16:15:39,029 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 16:15:39,030 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:15:39,314 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 16:15:42,446 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：1
+2021-06-05 16:15:45,652 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:15:46,597 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)匹配校验成功！
+2021-06-05 16:15:46,599 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Success
+2021-06-05 16:15:50,856 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 16:15:50,857 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:15:51,070 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：
+2021-06-05 16:15:54,193 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：
+2021-06-05 16:15:57,390 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:15:58,578 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)匹配校验成功！
+2021-06-05 16:15:58,579 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Success
+2021-06-05 16:16:02,818 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 16:16:02,819 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:16:03,044 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 16:16:06,174 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：2
+2021-06-05 16:16:09,375 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:16:10,304 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)匹配校验失败！
+待校验的字符串为:  Error
+Web Tours Error - Incorrect Password
+The username/password combination you've entered is invalid. Please double check your entry. If it still does not work, you might need to re-register with our site.
+Thank you for your patience.
+包含字符串为:hello,hello
+2021-06-05 16:16:10,531 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)校验失败
+2021-06-05 16:16:10,532 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [loginTest] on class [com.huixu.cases.WebtoursTest] Retry 1 times
+2021-06-05 16:16:10,711 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-05 16:16:15,588 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 16:16:15,589 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:16:15,590 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [loginTest] on class [com.huixu.cases.WebtoursTest] Retry 2 times
+2021-06-05 16:16:15,824 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-05 16:16:21,497 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 16:16:21,498 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:16:21,740 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Failure
+2021-06-05 16:16:22,434 INFO main [com.huixu.listener.TestResultListener]info(line:41)PassedTests = loginTest
+2021-06-05 16:16:22,435 INFO main [com.huixu.listener.TestResultListener]info(line:41)PassedTests = testBidu
+2021-06-05 16:16:22,435 INFO main [com.huixu.listener.TestResultListener]info(line:41)PassedTests = loginTest
+2021-06-05 16:16:22,436 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-05 16:16:22,436 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-05 16:16:22,436 INFO main [com.huixu.listener.TestResultListener]info(line:41)failedTest = loginTest
+2021-06-05 16:16:22,437 INFO main [com.huixu.listener.TestResultListener]info(line:41)Remove repeat Fail Test: loginTest
+2021-06-05 16:19:30,030 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:22)retrycount=2
+2021-06-05 16:19:30,034 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:23)sourceCodeDir=src
+2021-06-05 16:19:30,034 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:24)sourceCodeEncoding=UTF-8
+2021-06-05 16:19:43,453 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 16:19:43,454 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:19:43,610 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 16:19:46,655 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：1
+2021-06-05 16:19:50,132 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:19:50,220 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)匹配校验失败！
+待校验的字符串为:
+包含字符串为:Welcome, zhsan1
+2021-06-05 16:19:50,328 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)校验失败
+2021-06-05 16:19:50,330 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [loginTest] on class [com.huixu.hub_node.WebtoursTest] Retry 1 times
+2021-06-05 16:19:50,409 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-05 16:20:01,861 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 16:20:01,862 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:20:01,863 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [loginTest] on class [com.huixu.hub_node.WebtoursTest] Retry 2 times
+2021-06-05 16:20:02,017 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-05 16:20:14,764 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 16:20:14,765 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:20:15,541 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Failure
+2021-06-05 16:20:26,747 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 16:20:26,748 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:20:26,856 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：
+2021-06-05 16:20:29,905 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：
+2021-06-05 16:20:33,380 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:20:33,462 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)匹配校验失败！
+待校验的字符串为:
+包含字符串为:Web Tours Error - Incorrect Password
+2021-06-05 16:20:33,541 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)校验失败
+2021-06-05 16:20:33,615 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Failure
+2021-06-05 16:20:45,569 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 16:20:45,569 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:20:45,686 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Failure
+2021-06-05 16:20:58,274 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 16:20:58,275 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:20:58,406 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 16:21:01,451 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：2
+2021-06-05 16:21:04,915 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:21:04,999 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)匹配校验失败！
+待校验的字符串为:
+包含字符串为:hello,hello
+2021-06-05 16:21:05,074 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)校验失败
+2021-06-05 16:21:05,146 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Failure
+2021-06-05 16:21:15,984 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 16:21:15,985 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:21:16,111 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Failure
+2021-06-05 16:21:17,219 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-05 16:21:17,219 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-05 16:21:17,220 INFO main [com.huixu.listener.TestResultListener]info(line:41)failedTest = loginTest
+2021-06-05 16:21:17,220 INFO main [com.huixu.listener.TestResultListener]info(line:41)failedTest = loginTest
+2021-06-05 16:21:17,220 INFO main [com.huixu.listener.TestResultListener]info(line:41)failedTest = loginTest
+2021-06-05 16:21:17,221 INFO main [com.huixu.listener.TestResultListener]info(line:41)failedTest = loginTest
+2021-06-05 16:21:17,221 INFO main [com.huixu.listener.TestResultListener]info(line:41)failedTest = loginTest
+2021-06-05 16:21:17,223 INFO main [com.huixu.listener.TestResultListener]info(line:41)Remove repeat Fail Test: loginTest
+2021-06-05 16:27:48,858 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:22)retrycount=2
+2021-06-05 16:27:48,861 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:23)sourceCodeDir=src
+2021-06-05 16:27:48,862 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:24)sourceCodeEncoding=UTF-8
+2021-06-05 16:27:54,080 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 16:27:54,081 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:27:54,356 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 16:27:57,492 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：1
+2021-06-05 16:28:00,699 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:28:01,812 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)匹配校验成功！
+2021-06-05 16:28:01,813 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Success
+2021-06-05 16:28:07,221 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 16:28:07,222 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:28:07,451 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：
+2021-06-05 16:28:10,582 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：
+2021-06-05 16:28:13,793 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:28:14,749 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)匹配校验成功！
+2021-06-05 16:28:14,750 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Success
+2021-06-05 16:28:19,484 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 16:28:19,485 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:28:19,715 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 16:28:22,845 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：2
+2021-06-05 16:28:26,051 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:28:26,991 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)匹配校验失败！
+待校验的字符串为:  Error
+Web Tours Error - Incorrect Password
+The username/password combination you've entered is invalid. Please double check your entry. If it still does not work, you might need to re-register with our site.
+Thank you for your patience.
+包含字符串为:hello,hello
+2021-06-05 16:28:27,219 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)校验失败
+2021-06-05 16:28:27,223 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [loginTest] on class [com.huixu.cases.WebtoursTest] Retry 1 times
+2021-06-05 16:28:27,395 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-05 16:28:32,647 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 16:28:32,648 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:28:32,649 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [loginTest] on class [com.huixu.cases.WebtoursTest] Retry 2 times
+2021-06-05 16:28:32,860 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-05 16:28:38,243 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 16:28:38,244 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:28:38,453 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Failure
+2021-06-05 16:28:39,141 INFO main [com.huixu.listener.TestResultListener]info(line:41)PassedTests = loginTest
+2021-06-05 16:28:39,141 INFO main [com.huixu.listener.TestResultListener]info(line:41)PassedTests = loginTest
+2021-06-05 16:28:39,142 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-05 16:28:39,142 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-05 16:28:39,142 INFO main [com.huixu.listener.TestResultListener]info(line:41)failedTest = loginTest
+2021-06-05 16:28:39,143 INFO main [com.huixu.listener.TestResultListener]info(line:41)Remove repeat Fail Test: loginTest
+2021-06-05 16:33:01,992 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:22)retrycount=2
+2021-06-05 16:33:01,995 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:23)sourceCodeDir=src
+2021-06-05 16:33:01,996 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:24)sourceCodeEncoding=UTF-8
+2021-06-05 16:33:07,608 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 16:33:07,609 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:33:07,884 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 16:33:11,018 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：1
+2021-06-05 16:33:14,221 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:33:15,268 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)匹配校验成功！
+2021-06-05 16:33:15,269 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Success
+2021-06-05 16:33:19,932 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 16:33:19,933 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:33:20,154 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：
+2021-06-05 16:33:23,279 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：
+2021-06-05 16:33:26,485 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:33:27,465 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)匹配校验成功！
+2021-06-05 16:33:27,466 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Success
+2021-06-05 16:33:32,882 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 16:33:32,882 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:33:33,111 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 16:33:36,246 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：2
+2021-06-05 16:33:39,452 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:33:40,443 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)匹配校验失败！
+待校验的字符串为:  Error
+Web Tours Error - Incorrect Password
+The username/password combination you've entered is invalid. Please double check your entry. If it still does not work, you might need to re-register with our site.
+Thank you for your patience.
+包含字符串为:hello,hello
+2021-06-05 16:33:40,680 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)校验失败
+2021-06-05 16:33:40,682 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [loginTest] on class [com.huixu.cases.WebtoursTest] Retry 1 times
+2021-06-05 16:33:40,854 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-05 16:33:45,730 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 16:33:45,731 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:33:45,732 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [loginTest] on class [com.huixu.cases.WebtoursTest] Retry 2 times
+2021-06-05 16:33:45,957 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-05 16:33:53,571 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-05 16:33:53,572 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-05 16:33:53,806 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Failure
+2021-06-05 16:33:54,568 INFO main [com.huixu.listener.TestResultListener]info(line:41)PassedTests = loginTest
+2021-06-05 16:33:54,568 INFO main [com.huixu.listener.TestResultListener]info(line:41)PassedTests = loginTest
+2021-06-05 16:33:54,569 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-05 16:33:54,569 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-05 16:33:54,570 INFO main [com.huixu.listener.TestResultListener]info(line:41)failedTest = loginTest
+2021-06-05 16:33:54,570 INFO main [com.huixu.listener.TestResultListener]info(line:41)Remove repeat Fail Test: loginTest
+2021-06-05 16:36:47,413 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 16:36:47,632 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 16:36:50,676 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: password中输入文本：1
+2021-06-05 16:36:54,141 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:36:54,230 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)匹配校验失败！
+待校验的字符串为:
+包含字符串为:Welcome, zhsan1
+2021-06-05 16:36:54,345 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)校验失败
+2021-06-05 16:37:05,236 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 16:37:05,350 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: username中输入文本：
+2021-06-05 16:37:08,389 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: password中输入文本：
+2021-06-05 16:37:11,867 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:37:11,950 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)匹配校验失败！
+待校验的字符串为:
+包含字符串为:Web Tours Error - Incorrect Password
+2021-06-05 16:37:12,025 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)校验失败
+2021-06-05 16:37:23,985 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 16:37:24,114 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 16:37:27,162 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: password中输入文本：2
+2021-06-05 16:37:30,635 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:37:30,717 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)匹配校验失败！
+待校验的字符串为:
+包含字符串为:hello,hello
+2021-06-05 16:37:30,796 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)校验失败
+2021-06-05 16:38:03,532 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 16:38:03,705 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 16:38:06,745 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: password中输入文本：1
+2021-06-05 16:38:10,215 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:38:10,329 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)匹配校验失败！
+待校验的字符串为:
+包含字符串为:Welcome, zhsan1
+2021-06-05 16:38:10,459 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)校验失败
+2021-06-05 16:38:21,970 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 16:38:22,082 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: username中输入文本：
+2021-06-05 16:38:25,123 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: password中输入文本：
+2021-06-05 16:38:28,582 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:38:28,689 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)匹配校验失败！
+待校验的字符串为:
+包含字符串为:Web Tours Error - Incorrect Password
+2021-06-05 16:38:28,783 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)校验失败
+2021-06-05 16:38:39,667 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 16:38:39,790 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 16:38:42,832 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: password中输入文本：2
+2021-06-05 16:38:46,288 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:38:46,390 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)匹配校验失败！
+待校验的字符串为:
+包含字符串为:hello,hello
+2021-06-05 16:38:46,473 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)校验失败
+2021-06-05 16:48:48,208 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 16:49:19,856 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 16:49:28,747 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: password中输入文本：1
+2021-06-05 16:49:33,697 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:49:34,666 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)匹配校验成功！
+2021-06-05 16:49:39,783 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 16:49:41,363 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: username中输入文本：
+2021-06-05 16:49:45,260 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: password中输入文本：
+2021-06-05 16:49:50,332 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:49:51,535 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)匹配校验成功！
+2021-06-05 16:49:56,642 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 16:50:28,231 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-05 16:50:37,128 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)在文本框By.name: password中输入文本：2
+2021-06-05 16:50:42,057 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-05 16:50:43,260 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)匹配校验失败！
+待校验的字符串为:  Error
+Web Tours Error - Incorrect Password
+The username/password combination you've entered is invalid. Please double check your entry. If it still does not work, you might need to re-register with our site.
+Thank you for your patience.
+包含字符串为:hello,hello
+2021-06-05 16:50:43,357 ERROR main [com.huixu.drivers.SeleniumDrivers]err(line:53)校验失败
+2021-06-05 17:05:53,519 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 17:06:10,454 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 17:06:27,793 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 17:22:35,287 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 17:22:52,621 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-05 17:23:10,012 INFO main [com.huixu.drivers.SeleniumDrivers]info(line:41)打开网址：http://localhost:1080/webtours/
+2021-06-29 14:55:55,313 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:22)retrycount=2
+2021-06-29 14:55:55,317 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:23)sourceCodeDir=src
+2021-06-29 14:55:55,321 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:24)sourceCodeEncoding=UTF-8
+2021-06-29 14:56:02,819 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-29 14:56:02,820 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-29 14:56:03,103 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-29 14:56:06,240 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：1
+2021-06-29 14:56:09,455 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-29 14:56:10,871 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)匹配校验成功！
+2021-06-29 14:56:10,872 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Success
+2021-06-29 14:56:16,882 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-29 14:56:16,882 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-29 14:56:17,099 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：
+2021-06-29 14:56:20,227 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：
+2021-06-29 14:56:23,433 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-29 14:56:24,538 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)匹配校验成功！
+2021-06-29 14:56:24,539 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Success
+2021-06-29 14:56:29,701 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-29 14:56:29,702 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-29 14:56:29,938 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-29 14:56:33,075 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：2
+2021-06-29 14:56:36,283 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-29 14:56:37,615 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)匹配校验失败！
+待校验的字符串为:  Error
+Web Tours Error - Incorrect Password
+The username/password combination you've entered is invalid. Please double check your entry. If it still does not work, you might need to re-register with our site.
+Thank you for your patience.
+包含字符串为:hello,hello
+2021-06-29 14:56:37,903 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)校验失败
+2021-06-29 14:56:37,904 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [loginTest] on class [com.huixu.cases.WebtoursTest] Retry 1 times
+2021-06-29 14:56:38,090 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-29 14:56:42,990 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-29 14:56:42,991 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-29 14:56:42,991 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [loginTest] on class [com.huixu.cases.WebtoursTest] Retry 2 times
+2021-06-29 14:56:43,192 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-29 14:56:50,233 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-29 14:56:50,233 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-29 14:56:50,456 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Failure
+2021-06-29 14:56:51,148 INFO main [com.huixu.listener.TestResultListener]info(line:41)PassedTests = loginTest
+2021-06-29 14:56:51,148 INFO main [com.huixu.listener.TestResultListener]info(line:41)PassedTests = loginTest
+2021-06-29 14:56:51,149 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-29 14:56:51,150 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-29 14:56:51,150 INFO main [com.huixu.listener.TestResultListener]info(line:41)failedTest = loginTest
+2021-06-29 14:56:51,150 INFO main [com.huixu.listener.TestResultListener]info(line:41)Remove repeat Fail Test: loginTest
+2021-06-29 15:09:08,912 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:22)retrycount=2
+2021-06-29 15:09:08,915 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:23)sourceCodeDir=src
+2021-06-29 15:09:08,916 INFO main [com.huixu.listener.TestngRetry]<clinit>(line:24)sourceCodeEncoding=UTF-8
+2021-06-29 15:09:14,547 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-29 15:09:14,548 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-29 15:09:14,819 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-29 15:09:17,954 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：1
+2021-06-29 15:09:21,189 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-29 15:09:23,674 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)匹配校验成功！
+2021-06-29 15:09:23,676 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Success
+2021-06-29 15:09:28,529 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-29 15:09:28,529 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-29 15:09:28,757 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：
+2021-06-29 15:09:31,880 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：
+2021-06-29 15:09:35,079 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-29 15:09:36,047 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)匹配校验成功！
+2021-06-29 15:09:36,048 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Success
+2021-06-29 15:09:41,689 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-29 15:09:41,690 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-29 15:09:41,924 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: username中输入文本：zhsan1
+2021-06-29 15:09:45,055 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)在文本框By.name: password中输入文本：2
+2021-06-29 15:09:48,258 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)点击：By.xpath: //input[@name='login']
+2021-06-29 15:09:49,273 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)匹配校验失败！
+待校验的字符串为:  Error
+Web Tours Error - Incorrect Password
+The username/password combination you've entered is invalid. Please double check your entry. If it still does not work, you might need to re-register with our site.
+Thank you for your patience.
+包含字符串为:hello,hello
+2021-06-29 15:09:49,530 ERROR TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]err(line:53)校验失败
+2021-06-29 15:09:49,532 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [loginTest] on class [com.huixu.cases.WebtoursTest] Retry 1 times
+2021-06-29 15:09:49,710 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-29 15:09:55,380 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-29 15:09:55,381 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-29 15:09:55,382 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestngRetry]retry(line:31)Retry for [loginTest] on class [com.huixu.cases.WebtoursTest] Retry 2 times
+2021-06-29 15:09:55,579 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Skipped
+2021-06-29 15:10:01,019 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)打开网址：http://localhost:1080/webtours
+2021-06-29 15:10:01,176 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Start
+2021-06-29 15:10:01,370 INFO TestNG-test=Selenium_java-1 [com.huixu.listener.TestResultListener]info(line:41)loginTest Failure
+2021-06-29 15:10:02,050 INFO main [com.huixu.listener.TestResultListener]info(line:41)PassedTests = loginTest
+2021-06-29 15:10:02,050 INFO main [com.huixu.listener.TestResultListener]info(line:41)PassedTests = loginTest
+2021-06-29 15:10:02,051 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-29 15:10:02,051 INFO main [com.huixu.listener.TestResultListener]info(line:41)skipTest = loginTest
+2021-06-29 15:10:02,051 INFO main [com.huixu.listener.TestResultListener]info(line:41)failedTest = loginTest
+2021-06-29 15:10:02,052 INFO main [com.huixu.listener.TestResultListener]info(line:41)Remove repeat Fail Test: loginTest

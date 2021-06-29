@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+
+  <listeners>
+    <listener class-name="com.huixu.listener.RetryListener"></listener>
+    <listener class-name="com.huixu.listener.TestResultListener"></listener>
+  </listeners>
+
+  <parameter name="url" value="localhost:1080/webtours" />
+
+  <test thread-count="2" name="Selenium_java" parallel="classes">
+    <classes>
+
+      <class name="com.huixu.cases.WebtoursTest">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.huixu.tools.toolsTest -->
+      <class name="com.huixu.cases.GridTest">
+
+      </class>
+<!--      <class name="com.huixu.cases.assertTest">-->
+<!--      -->
+<!--      </class>-->
+
+    </classes>
+  </test> <!-- Selenium_Framework -->
+</suite> <!-- Default Suite -->
