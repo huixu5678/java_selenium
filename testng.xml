@@ -12,12 +12,13 @@
   <test thread-count="2" name="Selenium_java" parallel="classes">
     <classes>
 
-      <class name="com.huixu.cases.WebtoursTest">
-        <methods>
-          <include name="loginTest"/>
-        </methods>
-      </class> <!-- com.huixu.tools.toolsTest -->
-      <class name="com.huixu.cases.GridTest">
+<!--      <class name="com.huixu.cases.WebtoursTest">-->
+<!--        <methods>-->
+<!--          <include name="loginTest"/>-->
+<!--        </methods>-->
+<!--      </class> &lt;!&ndash; com.huixu.tools.toolsTest &ndash;&gt;-->
+
+      <class name="com.huixu.cases.assertTest">
 
       </class>
 <!--      <class name="com.huixu.cases.assertTest">-->
